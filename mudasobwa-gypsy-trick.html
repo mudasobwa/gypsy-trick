@@ -139,7 +139,7 @@ Web component provides easy handling of GPS tracks in GPX format.
           this.addPoint(
             segment,                                        // segment
             new Date(msb + mss / (coords.length - 1) * c),  // time
-            lla[0], lla[1], lla[2]                          // lat, lon, alt
+            lla[1], lla[0], lla[2]                          // lat, lon, alt
           );
         }
         this.periods.push({
